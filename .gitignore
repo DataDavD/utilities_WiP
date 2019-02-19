@@ -1,0 +1,7 @@
+*.pyc
+*.DS_Store
+*.idea
+*.csv
+/settings/*
+dash_app/dash_app
+!settings/*.example
