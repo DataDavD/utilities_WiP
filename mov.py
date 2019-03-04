@@ -22,13 +22,13 @@ class Mov():
                 break
 
         print()
-        pth = input("Please enter the source file path where loan list (.txt doc) is located: ")
+        pth = input("Please enter the source file path where file list (.txt doc) is located: ")
 
         print()
-        file_nm = input("Please enter the source file name that contains list of loans (.txt doc): ")
+        file_nm = input("Please enter the source file name that contains list of files (.txt doc): ")
 
         print()
-        flg = input("Is the folder path the same folder you want the loan folders moved to? (Enter Y or N): ")
+        flg = input("Is the folder path the same folder you want the file folders moved to? (Enter Y or N): ")
 
         src = []
         while True:
@@ -142,10 +142,10 @@ class Mov():
                     break
 
             print()
-            pth = input("Please enter the source file path where loan list (text doc) is located: ")
+            pth = input("Please enter the source file path where file list (text doc) is located: ")
 
             print()
-            file_nm = input("Please enter the source file name that contains list of loans (.txt doc): ")
+            file_nm = input("Please enter the source file name that contains list of files (.txt doc): ")
 
             print()
             flg = input("Is the folder path the same folder where the files to be watermarked are? (Enter Y or N): ")
