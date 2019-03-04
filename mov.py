@@ -4,6 +4,7 @@ import fnmatch
 import sys
 from PyPDF2 import PdfFileWriter, PdfFileReader
 
+
 class Mov():
     """A simple file utility that moves specified borrower docs to a specified folder. Created by DavD."""
 

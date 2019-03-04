@@ -1,5 +1,5 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
 def show_as_image(sample, shape):
     """ Function that takes image encoded as 1D array and reshapes it to
