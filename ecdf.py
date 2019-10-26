@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def ecdf(data):
-    """Compute ECDF for a one-dimensional array of measurements."""
+    """Compute ECDF for a one-dimensional array of measurements. from DataCamp"""
     # Number of data points: n
     n = len(data)
 
